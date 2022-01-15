@@ -14,7 +14,8 @@
     "target": "ES5",
     "outDir": "./dist",
     "esModuleInterop": true,
-    "noImplicitAny": true
+    "noImplicitAny": true,
+    "strictNullChecks": true
   },
   "exclude": [
     "node_modules"

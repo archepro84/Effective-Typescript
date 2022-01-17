@@ -29,6 +29,7 @@
     - 잘못된 매개변수 개수로 함수를 호출하는 경우처럼, javascript에서는 허용되지만 typescript에서는 문제가 되는 경우도 있습니다.
     - 문법적 엄격함은 온전히 취향의 차이이며 우열을 가릴 수 없는 문제입니다.
 <br>
+
 ## Item 2. typescript 설정 이해하기
 
 ### typescript의 설정
@@ -68,7 +69,8 @@
 - javascript 프로젝트를 typescript로 전환하는 게 아니라면 noImplicitAny를 설정하는 것이 좋습니다.
 - “undefined는 객체가 아닙니다” 같은 런타임 오류를 방지하기 위해 strictNullChecks를 설정하는 것이 좋습니다.
 - typescript에서 엄격한 체크를 하고 싶다면 strict 설정을 고려해야 합니다.
-  <br>
+<br>
+
 ## Item 3. 코드 생성과 type이 관계없음을 이해하기
 
 ### typescript 컴파일러의 역할
@@ -151,7 +153,8 @@
     - 런타임에 type을 지정하려면 아래와 같은 별도의 방법이 필요하다.
         1. 태그된 유니온과 속성 체크 방법
         2. 클래스 같이 typescript의 type과 런타임 값, 둘 다 제공하는 방법
-           <br>
+<br>
+
 ## Item 4. 구조적 타이핑에 익숙해지기
 
 ### javascript는 duck typing 기반이다.
@@ -180,7 +183,8 @@
 - 클래스 역시 구조적 타이핑 규칙을 따른다.
     - 클래스의 인스턴스가 예쌍과 다를 수 있다.
 - 구조적 타이핑을 사용하면 유닛 테스팅을 손쉽게 할 수 있다.
-  <br>
+<br>
+
 ## Item 5. any type 지양하기
 
 ### typescript의 type system은 점진적(gradual)이고 선택적(optional)이다.
